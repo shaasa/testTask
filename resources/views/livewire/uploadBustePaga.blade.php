@@ -22,7 +22,7 @@
                                         </ul>
                                     </div>
                                 @endif
-                                <a href="{{route('dipendenti')}}"><- Torna alla lista die dipendenti</a>
+                                <a href="{{route('dipendenti')}}"><- Torna alla lista dei dipendenti</a>
                                 <div class="card">
                                     <div class="card-body">
                                         <form method="POST" action="{{route('gestioneBustePaga')}}" enctype="multipart/form-data">

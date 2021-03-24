@@ -5,7 +5,7 @@
                 <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-1">
                     <div class="container">
                         <div class="py-12">
-                            <a href="{{route('dipendenti')}}"><- Torna alla lista die dipendenti</a>
+                            <a href="{{route('dipendenti')}}"><- Torna alla lista dei dipendenti</a>
                             <div class="card">
                                 <div class="card-header">
                                     <h3>
