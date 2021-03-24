@@ -12,7 +12,7 @@ class BustePaga extends Component
     public function render($id)
     {
         $dipendente = Dipendente::where('id',$id)->first();
-        $bustePaga = BustaPaga::where('dipendente_id',$id)->get();
+        $bustePaga = BustaPaga::where('dipendente_id',$id)->orderBy('mese','ASC', 'anno','ASC')->get();
 
         return view('livewire.bustepaga',['id'=>$id,'nome'=>$dipendente->nome, 'bustepaga'=>$bustePaga]);
     }
